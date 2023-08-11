@@ -9,6 +9,7 @@ echo "1. Addition"
 echo "2. Subtraction"
 echo "3. Division"
 echo "4. Multiplication"
+echo "5. Modulo"
 
 read choice
 
@@ -44,6 +45,11 @@ case $choice in
                 read num1
                 echo "The answer is = `expr $num \* $num1`"
                 echo "Thanks" ;;
+	5)
+		read -p "Enter first number: " num1
+		read -p "Enter second number: " num2
+		echo " $num1 mod $num2 is `expr $num1 % $num2`"
+		echo " end of modulo" 
         *)
                 echo "Invalid Choice"
 esac
