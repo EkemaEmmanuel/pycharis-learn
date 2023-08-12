@@ -9,6 +9,7 @@ echo "1. Addition"
 echo "2. Subtraction"
 echo "3. Division"
 echo "4. Multiplication"
+echo "5. modolu"
 
 read choice
 
@@ -44,9 +45,14 @@ case $choice in
                 read num1
                 echo "The answer is = `expr $num \* $num1`"
                 echo "Thanks" ;;
+	5)
+		read -p "Enter first number: " num1
+		read -p "Enter second number: " num2
+		echo "$num1 % $num2 = `expr $num1 % $num2`"
+		echo "Modolu ends here"
         *)
                 echo "Invalid Choice"
 esac
-echo "Thank you for using our service"
+echo "Thank you for using group1's calculator"
 
 
