@@ -19,7 +19,7 @@ case $choice in
                 read num
                 echo "Please enter second number"
                 read num1
-                echo "The answer is = `expr $num + $num1`"
+                echo "$num + $num1 = `expr $num + $num1`"
                 echo "Thanks" ;;
 
         2)
@@ -27,7 +27,7 @@ case $choice in
                 read num
                 echo "Please enter second number"
                 read num1
-                echo "The answer is = `expr $num - $num1`"
+                echo " $num - $num2  = `expr $num - $num1`"
                 echo "Thanks" ;;
 
         3)
@@ -35,7 +35,7 @@ case $choice in
                 read num
                 echo "Please enter second number"
                 read num1
-                echo "The anser is = `expr $num / $num1`"
+                echo "$num / $num1  = `expr $num / $num1`"
                 echo "Thanks" ;;
 
         4)
@@ -43,16 +43,16 @@ case $choice in
                 read num
                 echo "Please enter second number"
                 read num1
-                echo "The answer is = `expr $num \* $num1`"
+                echo "$num * $num1  = `expr $num \* $num1`"
                 echo "Thanks" ;;
 	5)
 		read -p "Enter first number: " num1
 		read -p "Enter second number: " num2
 		echo " $num1 mod $num2 is `expr $num1 % $num2`"
-		echo " end of modulo" 
+		echo " end of modulo" ;;
         *)
-                echo "Invalid Choice"
+                echo "Opps!! Invalid Choice"
 esac
-echo "Thank you for using our service"
+echo "Thank you for using group1's calculator"
 
 
