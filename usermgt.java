@@ -6,3 +6,6 @@ awesome
 sylvester 
 sylvia
 collins
+  happiness
+  Joy
+  kindness 
