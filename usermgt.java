@@ -8,4 +8,6 @@ sylvia
 collins
   happiness
   Joy
-  kindness 
+  kindness
+  hope 
+  Love 
