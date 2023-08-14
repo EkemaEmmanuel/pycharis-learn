@@ -9,7 +9,6 @@ echo "1. Addition"
 echo "2. Subtraction"
 echo "3. Division"
 echo "4. Multiplication"
-echo "5. Modulo"
 
 read choice
 
@@ -45,19 +44,9 @@ case $choice in
                 read num1
                 echo "$num * $num1  = `expr $num \* $num1`"
                 echo "Thanks" ;;
-	5)
-		read -p "Enter first number: " num1
-		read -p "Enter second number: " num2
-		echo " $num1 mod $num2 is `expr $num1 % $num2`"
-		echo " end of modulo" ;;
         *)
                 echo "Opps!! Invalid Choice"
 esac
-<<<<<<< HEAD
 echo "Thank you for using our service"
-echo "You are doing well tho" 
-=======
-echo "Thank you for using group1's calculator"
->>>>>>> 2a06c37e1ca5a84de91f666ba5248c3e60fba5e4
 
 
