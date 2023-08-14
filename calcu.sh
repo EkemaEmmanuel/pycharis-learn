@@ -48,5 +48,6 @@ case $choice in
                 echo "Invalid Choice"
 esac
 echo "Thank you for using our service"
+echo "You are doing well tho" 
 
 
